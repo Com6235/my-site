@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'PixelRial'; /*a name to be used later*/
+    src: url('Media/PRS.ttf'); /*URL to font*/
+}
+
 h1 {
-    font-family: "Media/PRS.ttf";
+    font-family: 'PixelRial';
 }
