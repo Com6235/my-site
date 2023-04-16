@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'PixeRialSpace';
+	src: '../Media/PRS.ttf';
+}
+* {
+	font-family: PixeRialSpace
+}
+
+html { overflow-y: hidden; background: black; }
+.text {
+	color: red;
+	font-size: 15vw;
+	position: absolute;
+	left: 15px;
+	top: 0px;
+	line-height: 100%;
+}
