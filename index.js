@@ -8,9 +8,9 @@ if (value == "true") {
   hka.innerText = "You found an easter egg #1!"
 }
 
-function button() {
+var audio = new Audio("Media/oof.mp3");
+document.getElementById("test-button").addEventListener("click", function() {
   if (value == "true") {
-    var audio = new Audio("Media/oof.mp3")
-    audio.play()
+    audio.play();
   }
-}
+});
